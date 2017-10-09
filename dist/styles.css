@@ -1,7 +1,37 @@
-.test--enabled {
-  background: green;
-  width: 100px;
-  height: 100px;
-  position: absolute; }
+.helediv
+{
+    display: flex;
+}
 
-/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZXMuY3NzIiwic291cmNlUm9vdCI6IiJ9*/
+.header
+{
+    width: 100%;
+    background: #333;
+    padding: 10px 0;
+    color: #fff;
+    text-align: center;
+}
+
+.links
+{
+    float: left;
+    margin: 10px 15px;
+    border-right: 5px solid black;
+    height: auto;
+}
+
+.rechts
+{
+    position: relative;
+    float: right;
+}
+
+.datum
+{
+    border-bottom: 1px solid black;
+}
+
+.item
+{
+
+}
