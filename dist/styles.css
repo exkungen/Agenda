@@ -1,6 +1,6 @@
 .helediv
 {
-    display: flex;
+height: 100%;
 }
 
 .header
@@ -15,23 +15,38 @@
 .links
 {
     float: left;
-    margin: 10px 15px;
-    border-right: 5px solid black;
-    height: auto;
+    margin-right: 10px;
+    border-right: 3px solid black;
+    border-bottom: 3px solid black;
+    padding-right:3px ;
+
 }
 
 .rechts
 {
     position: relative;
-    float: right;
+    float: left;
+    border-right: 3px solid black;
+    height: 90%;
+
 }
 
 .datum
 {
-    border-bottom: 1px solid black;
+    border-bottom: 3px solid black;
+
+    height: 5%;
 }
 
 .item
 {
+border: 3px solid black;
+}
+body {
+    margin: 0;
+    padding: 0;
+}
 
+body,html {
+    height: 100%;
 }
